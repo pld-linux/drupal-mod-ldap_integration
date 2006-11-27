@@ -10,7 +10,7 @@ Source0:	http://wiki.pablobm.com/images/5/51/Ldap_integration-%{version}.tar.gz
 # Source0-md5:	ab190ffb43d8365de411b17354e94bb1
 URL:		http://drupal.org/node/15109
 Requires:	drupal >= 4.6.0
-Requires:	php-ldap
+Requires:	php(ldap)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
