@@ -1,6 +1,6 @@
 %define		modname ldap_integration
 Summary:	Drupal LDAP Integration Module
-Summary(pl):	Modu³ intergracji z LDAP dla Drupala
+Summary(pl.UTF-8):   ModuÅ‚ intergracji z LDAP dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.1
@@ -23,10 +23,10 @@ This module allows users to authenticate against a LDAP directory.
 Additionally, users can read and modify their data in the LDAP
 directory, being the administrator able to limit it.
 
-%description -l pl
-Ten modu³ pozwala u¿ytkownikom uwierzytelniaæ siê wzglêdem katalogu
-LDAP. Ponadto u¿ytkownicy mog± czytaæ i modyfikowaæ swoje dane w
-katalogu LDAP, przy czym administrator mo¿e to prawo ograniczyæ.
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala uÅ¼ytkownikom uwierzytelniaÄ‡ siÄ™ wzglÄ™dem katalogu
+LDAP. Ponadto uÅ¼ytkownicy mogÄ… czytaÄ‡ i modyfikowaÄ‡ swoje dane w
+katalogu LDAP, przy czym administrator moÅ¼e to prawo ograniczyÄ‡.
 
 %prep
 %setup -q -n %{modname}-%{version}
