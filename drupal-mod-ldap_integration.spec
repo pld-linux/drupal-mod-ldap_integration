@@ -1,6 +1,6 @@
 %define		modname ldap_integration
 Summary:	Drupal LDAP Integration Module
-Summary(pl.UTF-8):   Moduł intergracji z LDAP dla Drupala
+Summary(pl.UTF-8):	Moduł intergracji z LDAP dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.1
